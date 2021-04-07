@@ -1,0 +1,85 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+background-color: rgb(39, 39, 39);
+}
+body{
+    font-family:Helvetica;
+    line-height: 1.5;
+    color: rgb(144, 144, 144);
+    font-size: 100%;
+}
+.conteiner{
+    max-width: 1128px;
+    margin: 0 auto;
+}
+img, figure , video, embed{
+    max-width: 100%;
+}
+
+li, a {
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    padding-left:20px ;
+    color: rgb(107, 107, 107);
+
+
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    margin-top:36px;
+    margin-bottom:36px;
+}
+/*MENU*/
+.menu{
+    width: 234px;
+    float: left;
+   
+}
+.links{
+    list-style: none;   
+}
+.links li{
+    display: inline-block;
+}
+.links li a {
+    transition: all 0.5s ease 0s;   
+}
+.links li a:hover{
+    color: rgb(253, 253, 253);
+}
+
+
+.banner{
+
+   display: grid;
+   justify-items: center;
+
+}
+section{
+    
+  position: relative;
+  justify-items: center;
+
+}
+   
+
+    footer{
+        font-family: 'Courier New', Courier, monospace;
+        color: aliceblue;
+        text-align: center;
+        padding-bottom : 50px;
+    }
+    
+   
+   
+
+
